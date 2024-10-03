@@ -1,1 +1,49 @@
-/*  your css code here. If applicable */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Image container */
+.hero-image img {
+    width: 60%; /* Take up 60% of the hero section */
+    height: 100vh;
+    object-fit: cover; /* Ensure the image covers the full height */
+}
+
+/* Text container */
+.hero-text {
+    width: 35%;
+    padding: 20px;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* Explore Now button */
+.explore-btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Button hover effect */
+.explore-btn:hover {
+    background-color: darkred;
+}
